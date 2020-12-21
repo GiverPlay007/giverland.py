@@ -1,6 +1,6 @@
 import pygame
 
-from cube import cube
+from solids import *
 
 from pygame.locals import *
 
@@ -25,7 +25,7 @@ def main():
 
         glRotatef(1, 3, 1, 1)
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
-        cube()
+        show_cube()
         pygame.display.flip()
         pygame.time.wait(10)
 
