@@ -1,4 +1,4 @@
-pip==20.2.4
-PyOpenGL==3.1.5
-PyOpenGL_accelerate==3.1.5
-pygame==2.0.0
+pip >= 20.2.4
+PyOpenGL >= 3.1.5
+PyOpenGL_accelerate >= 3.1.5
+pygame >= 2.0.0
